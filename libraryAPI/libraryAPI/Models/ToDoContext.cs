@@ -2,7 +2,7 @@
 
 namespace LibraryAPI.Models
 {
-    public class ToDoContext : DbContext
+    public class ToDoContext: DbContext
     {
         public ToDoContext(DbContextOptions<ToDoContext> option)
             : base(option)
@@ -10,4 +10,4 @@ namespace LibraryAPI.Models
 
         public DbSet<Product> todoProducts { get; set; }
     }
-}
+}   
