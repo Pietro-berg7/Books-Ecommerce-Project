@@ -1,5 +1,6 @@
 ﻿using LibraryAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace library.Controllers
 {
@@ -105,6 +106,12 @@ namespace library.Controllers
             });
 
             _context.SaveChanges();
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        {
+            return await _context.todoProducts.ToListAsync();
         }
     }
 }
