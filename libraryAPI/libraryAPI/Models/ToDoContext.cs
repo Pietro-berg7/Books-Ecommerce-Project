@@ -14,25 +14,25 @@ namespace LibraryAPI.Models
                     new Product
                     {
                         Id = "1",
-                        Name = "Book1",
+                        Name = "1984",
                         Price = 24.0,
                         Quantity = 1,
-                        Category = "Action",
+                        Category = "Dystopian",
                         Img = "img1"
                     },
                     new Product
                     {
                         Id = "2",
-                        Name = "Book2",
+                        Name = "The Catcher in the Rye",
                         Price = 18.5,
                         Quantity = 3,
-                        Category = "Fiction",
+                        Category = "Classic",
                         Img = "img2"
                     },
                     new Product
                     {
                         Id = "3",
-                        Name = "Book3",
+                        Name = "The Girl on the Train",
                         Price = 14.99,
                         Quantity = 6,
                         Category = "Mystery",
@@ -41,7 +41,7 @@ namespace LibraryAPI.Models
                     new Product
                     {
                         Id = "4",
-                        Name = "Book4",
+                        Name = "The Hobbit",
                         Price = 22.0,
                         Quantity = 2,
                         Category = "Fantasy",
@@ -50,7 +50,7 @@ namespace LibraryAPI.Models
                     new Product
                     {
                         Id = "5",
-                        Name = "Book5",
+                        Name = "Dune",
                         Price = 9.95,
                         Quantity = 8,
                         Category = "Science Fiction",
@@ -59,47 +59,11 @@ namespace LibraryAPI.Models
                     new Product
                     {
                         Id = "6",
-                        Name = "Book6",
+                        Name = "Pride and Prejudice",
                         Price = 12.5,
                         Quantity = 5,
                         Category = "Romance",
                         Img = "img6"
-                    },
-                    new Product
-                    {
-                        Id = "7",
-                        Name = "Book7",
-                        Price = 27.99,
-                        Quantity = 4,
-                        Category = "Thriller",
-                        Img = "img7"
-                    },
-                    new Product
-                    {
-                        Id = "8",
-                        Name = "Book8",
-                        Price = 16.75,
-                        Quantity = 7,
-                        Category = "Adventure",
-                        Img = "img8"
-                    },
-                    new Product
-                    {
-                        Id = "9",
-                        Name = "Book9",
-                        Price = 10.0,
-                        Quantity = 9,
-                        Category = "Non-Fiction",
-                        Img = "img9"
-                    },
-                    new Product
-                    {
-                        Id = "10",
-                        Name = "Book10",
-                        Price = 19.99,
-                        Quantity = 1,
-                        Category = "Historical Fiction",
-                        Img = "img10"
                     }
                 });
 
