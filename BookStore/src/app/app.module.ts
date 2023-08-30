@@ -9,6 +9,7 @@ import { NavComponent } from './components/shared/nav/nav.component';
 import { BookCartComponent } from './components/book-cart/book-cart.component';
 import { FiltersComponent } from './components/book-cart/filters/filters.component';
 import { ProductListComponent } from './components/book-cart/product-list/product-list.component';
+import { ProductItemComponent } from './components/book-cart/product-list/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductListComponent } from './components/book-cart/product-list/produc
     NavComponent,
     BookCartComponent,
     FiltersComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
