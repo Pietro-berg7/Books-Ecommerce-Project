@@ -6,11 +6,11 @@ namespace library.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class libraryController: ControllerBase
+    public class LibraryController: ControllerBase
     {
         private readonly ToDoContext _context;
 
-        public libraryController(ToDoContext context)
+        public LibraryController(ToDoContext context)
         {
             _context = context;
         }
